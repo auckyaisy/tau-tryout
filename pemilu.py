@@ -180,3 +180,7 @@ def check_user(username):
         return False
     else:
         return True
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
